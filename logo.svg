@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#2b0303"/>
+      <stop offset="1" stop-color="#4d0000"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" rx="20" fill="#0b0b0b"/>
+  <!-- sun -->
+  <circle cx="240" cy="60" r="30" fill="#e6b800"/>
+  <!-- tower -->
+  <g transform="translate(60,60)" fill="#f3f3f3">
+    <rect x="60" y="80" width="40" height="90" rx="4" fill="#f3f3f3" />
+    <path d="M40 80 L140 80 L100 20 L80 20 Z" fill="#f3f3f3"/>
+    <rect x="80" y="60" width="20" height="20" rx="2" fill="#0b0b0b"/>
+  </g>
+  <!-- accent border -->
+  <rect x="0" y="260" width="300" height="40" fill="#d32f2f"/>
+</svg>
